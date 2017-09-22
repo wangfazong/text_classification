@@ -2,11 +2,10 @@
 #training the model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.training (5.validation) ,(6.prediction)
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
-from p9_BiLstmTextRelation_model import BiLstmTextRelation
+from aa5_BiLstmTextRelation.p9_BiLstmTextRelation_model import BiLstmTextRelation
 from data_util_zhihu import load_data,create_voabulary #,create_voabulary_label
 from tflearn.data_utils import pad_sequences #to_categorical
 import os

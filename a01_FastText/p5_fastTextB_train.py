@@ -2,12 +2,11 @@
 #training the model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.training (5.validation) ,(6.prediction)
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
-from p5_fastTextB_model import fastTextB as fastText
-from p4_zhihu_load_data import load_data,create_voabulary,create_voabulary_label
+from a01_FastText.p5_fastTextB_model import fastTextB as fastText
+from a01_FastText.p4_zhihu_load_data import load_data,create_voabulary,create_voabulary_label
 from tflearn.data_utils import to_categorical, pad_sequences
 import os
 import word2vec

@@ -2,16 +2,14 @@
 #prediction using model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.predict
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
-from p8_TextRNN_model import TextRNN
+from a03_TextRNN.p8_TextRNN_model import TextRNN
 from data_util_zhihu import load_data_predict,load_final_test_data,create_voabulary,create_voabulary_label
 from tflearn.data_utils import pad_sequences #to_categorical
 import os
 import codecs
-from p7_TextCNN_model import TextCNN
 
 #configuration
 FLAGS=tf.app.flags.FLAGS

@@ -23,7 +23,7 @@ from tflearn.layers.merge_ops import merge
 from tflearn.layers.estimator import regression
 from tflearn.data_utils import to_categorical, pad_sequences
 #from tflearn.datasets import imdb
-from p4_zhihu_load_data import load_data,create_voabulary,create_voabulary_label
+from data_util_zhihu import load_data,create_voabulary,create_voabulary_label
 import numpy as np
 import pickle
 

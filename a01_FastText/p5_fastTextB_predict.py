@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 #prediction using model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.predict
-try:
-    reload                        # Python 2
-except NameError:
-    from importlib import reload  # Python 3
+# try:
+#     reload                        # Python 2
+# except NameError:
+#     from importlib import reload  # Python 3
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
-from p5_fastTextB_model import fastTextB as fastText
+from a01_FastText.p5_fastTextB_model import fastTextB as fastText
 from data_util_zhihu import load_data_predict,load_final_test_data,create_voabulary,create_voabulary_label
 from tflearn.data_utils import to_categorical, pad_sequences
 import os
 import codecs
+from importlib import reload
 
 #configuration
 FLAGS=tf.app.flags.FLAGS

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import tensorflow as tf
-from  a2_multi_head_attention import MultiHeadAttention
-from a2_poistion_wise_feed_forward import PositionWiseFeedFoward
-from a2_layer_norm_residual_conn import LayerNormResidualConnection
+from a07_Transformer.a2_multi_head_attention import MultiHeadAttention
+from a07_Transformer.a2_poistion_wise_feed_forward import PositionWiseFeedFoward
+from a07_Transformer.a2_layer_norm_residual_conn import LayerNormResidualConnection
 class BaseClass(object):
     """
     base class has some common fields and functions.

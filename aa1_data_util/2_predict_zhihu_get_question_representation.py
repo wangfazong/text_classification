@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 
 #准备预测需要的数据.每一行作为问题的表示,写到文件中.

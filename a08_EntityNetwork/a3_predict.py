@@ -2,7 +2,6 @@
 #prediction using model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.predict
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
@@ -10,7 +9,7 @@ from data_util_zhihu import load_data_predict,load_final_test_data,create_voabul
 from tflearn.data_utils import pad_sequences #to_categorical
 import os
 import codecs
-from a3_entity_network import EntityNetwork
+from a08_EntityNetwork.a3_entity_network import EntityNetwork
 
 #configuration
 FLAGS=tf.app.flags.FLAGS

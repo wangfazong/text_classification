@@ -2,11 +2,10 @@
 #training the model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.training (5.validation) ,(6.prediction)
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
-from a1_seq2seq_attention_model import  seq2seq_attention_model
+from a06_Seq2seqWithAttention.a1_seq2seq_attention_model import  seq2seq_attention_model
 from data_util_zhihu import load_data_multilabel_new,create_voabulary,create_voabulary_label
 from tflearn.data_utils import to_categorical, pad_sequences
 import os,math

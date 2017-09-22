@@ -11,8 +11,8 @@ masking, combined with fact that the output embeddings are offset by one positio
 predictions for position i can depend only on the known outputs at positions less than i.
 """
 import tensorflow as tf
-from a2_base_model import BaseClass
-from a2_attention_between_enc_dec import AttentionEncoderDecoder
+from a07_Transformer.a2_base_model import BaseClass
+from a07_Transformer.a2_attention_between_enc_dec import AttentionEncoderDecoder
 import time
 
 class Decoder(BaseClass):

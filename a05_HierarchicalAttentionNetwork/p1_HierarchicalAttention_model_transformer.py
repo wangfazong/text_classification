@@ -3,8 +3,8 @@
 import tensorflow as tf
 import numpy as np
 import tensorflow.contrib as tf_contrib
-from  a2_multi_head_attention import MultiHeadAttention
-from a2_poistion_wise_feed_forward import PositionWiseFeedFoward
+from a07_Transformer.a2_multi_head_attention import MultiHeadAttention
+from a07_Transformer.a2_poistion_wise_feed_forward import PositionWiseFeedFoward
 class HierarchicalAttention:
     def __init__(self, num_classes, learning_rate, batch_size, decay_steps, decay_rate, sequence_length, num_sentences,
                  vocab_size, embed_size,

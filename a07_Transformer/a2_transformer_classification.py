@@ -3,8 +3,8 @@ import tensorflow as tf
 import numpy as np
 import random
 import copy
-from a2_base_model import BaseClass
-from a2_encoder import Encoder
+from a07_Transformer.a2_base_model import BaseClass
+from a07_Transformer.a2_encoder import Encoder
 import os
 """
 Transformer_classification: originally it perform sequence to sequence solely on attention mechanism. do it fast and better. now we use it to do text classification.

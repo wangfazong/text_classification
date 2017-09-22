@@ -2,11 +2,10 @@
 #training the model.
 #process--->1.load data(X:list of lint,y:int). 2.create session. 3.feed data. 4.training (5.validation) ,(6.prediction)
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 import tensorflow as tf
 import numpy as np
-from p72_TextCNN_with_RCNN_model import TextCNN_with_RCNN
+from aa4_TextCNN_with_RCNN.p72_TextCNN_with_RCNN_model import TextCNN_with_RCNN
 from data_util_zhihu import load_data_multilabel_new,create_voabulary,create_voabulary_label
 from tflearn.data_utils import to_categorical, pad_sequences
 import os

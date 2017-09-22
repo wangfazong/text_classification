@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import sys
-reload(sys)
 sys.setdefaultencoding('utf8')
 #最终输出：x1=question_representation,x2=topic_representation,y=0(or 1)--->(x1,x2,y)
 

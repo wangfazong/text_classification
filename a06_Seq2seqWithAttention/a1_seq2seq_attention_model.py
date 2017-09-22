@@ -5,7 +5,7 @@ import numpy as np
 import tensorflow.contrib as tf_contrib
 import random
 import copy
-from a1_seq2seq import rnn_decoder_with_attention,extract_argmax_and_embed
+from a06_Seq2seqWithAttention.a1_seq2seq import rnn_decoder_with_attention,extract_argmax_and_embed
 
 class seq2seq_attention_model:
     def __init__(self, num_classes, learning_rate, batch_size, decay_steps, decay_rate, sequence_length,
