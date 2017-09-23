@@ -10,7 +10,7 @@ from data_util_zhihu import load_data_predict,load_final_test_data,create_voabul
 from tflearn.data_utils import pad_sequences #to_categorical
 import os
 import codecs
-from a04_TextRCNN.p7_TextCNN_model import TextCNN
+from a02_TextCNN.p7_TextCNN_model import TextCNN
 from a06_Seq2seqWithAttention.a1_seq2seq_attention_model import seq2seq_attention_model
 
 #configuration

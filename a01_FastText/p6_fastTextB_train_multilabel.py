@@ -7,7 +7,7 @@
 import tensorflow as tf
 import numpy as np
 from a01_FastText.p6_fastTextB_model_multilabel import fastTextB as fastText
-from a01_FastText.p4_zhihu_load_data import load_data_with_multilabels,create_voabulary,create_voabulary_label
+from data_util_zhihu import load_data_with_multilabels,create_voabulary,create_voabulary_label
 from tflearn.data_utils import to_categorical, pad_sequences
 import os
 import word2vec

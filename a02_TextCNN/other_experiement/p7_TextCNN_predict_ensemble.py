@@ -1,4 +1,4 @@
-from a02_TextCNN.other_experiement.p7_TextCNN_predict import get_logits_with_value_by_input
+from a02_TextCNN.p7_TextCNN_predict import get_logits_with_value_by_input
 from a02_TextCNN.other_experiement.p7_TextCNN_predict_exp import get_logits_with_value_by_input_exp
 import tensorflow as tf
 def main(_):
